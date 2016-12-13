@@ -2,7 +2,11 @@
     ADD YOUR OWN THEME STYLING HERE
 -------------------------------------------------------------------*/
 
-.breadcrumb-s {
+.sam-color {
+  color: #f6b138;
+}
+
+.breadcrumb>.active, .breadcrumb a {
   color: #f6b138;
 }
 
