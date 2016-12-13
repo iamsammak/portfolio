@@ -3,7 +3,7 @@
 
 // specify your email here
 
-$to = 'adnanarf@gmail.com';
+$to = 'samuelswmak@gmail.com';
 
 
 
@@ -12,7 +12,7 @@ $to = 'adnanarf@gmail.com';
     if (isset($_POST['email'])) { $from = $_POST['email']; }
     if (isset($_POST['company'])) { $company = $_POST['company']; }
     if (isset($_POST['message'])) { $message = $_POST['message']; }
-	
+
 	// Construct subject of the email
 	$subject = 'Contact Iquery ' . $name;
 
@@ -38,5 +38,5 @@ $to = 'adnanarf@gmail.com';
                 </script>
 <?php
 	} // End else
-    
+
 ?>
