@@ -69,9 +69,9 @@
             <li class="scroll active"><a href="#wrap">HOME</a></li>
             <li class="scroll"><a href="#about">ABOUT ME</a></li>
             <li class="scroll"><a href="#portfolio">PROJECTS</a></li>
-            <li class="scroll"><a href="https://github.com/iamsammak">GitHub</a></li>
-            <li class="scroll"><a href="https://www.linkedin.com/in/samuelmak">LinkedIn</a></li>
-            <li class="scroll"><a href="#links">RESUME</a></li>
+            <li class="scroll"><a href="https://github.com/iamsammak" target="_blank">GitHub</a></li>
+            <li class="scroll"><a href="https://www.linkedin.com/in/samuelmak" target="_blank">LinkedIn</a></li>
+            <li class="scroll"><a href="http://res.cloudinary.com/dfazwubvc/image/upload/v1481654306/Resume/Sam_Mak_Resume_v2.pdf" target="_blank">RESUME</a></li>
             <li class="scroll"><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
@@ -257,7 +257,7 @@
 
           <!-- Soundspace ITEM -->
           <article class="portfolio-item pf-javascript">
-            <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-2.jpg"> </a>
+            <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/kammas/gameplay3.gif"> </a>
               <div class="portfolio-overlay style-4">
                 <div class="detail-info">
                   <div class="position-center-center">
@@ -300,6 +300,21 @@
       </div>
     </div>
 
+<!-- Herc Email Form -->
+
+    <!-- <form action="https://api.hercdev.io/email" method="post">
+      <input type="hidden" name="api_key" value="70215307be151af26399cce72d27d5f028a9f5c155ee0f45e3635c0c13f6" />
+      <input type="hidden" name="to_email" value="samuelswmak@gmail.com" />
+      <input type="hidden" name="to_name" value="Samuel Mak" />
+      <input type="hidden" name="redirect_url" value="http://urlforaftersubmit.com" /> -->
+      <!-- <input type="text" name="from_email" value="" />
+      <input type="text" name="from_name" value="" />
+      <input type="text" name="subject" value="" />
+      <textarea name="body"></textarea>
+      <button type="submit">Send Me</button>
+    </form> -->
+
+
     <!-- Contact  -->
     <div class="padding-top-80 padding-bottom-80 bg-parallax" style="background-image: url('images/kammas/sf-yellow-black-overlay.jpg')">
       <div class="container">
@@ -313,30 +328,41 @@
               <div id="contact_message" class="success-msg animated fadeInUp"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>
 
               <!-- FORM -->
-              <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+              <!-- <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false"> -->
+              <form role="form" id="contact_form" class="contact_form" action="https://api.hercdev.io/email" method="post">
+                <input type="hidden" name="api_key" value="70215307be151af26399cce72d27d5f028a9f5c155ee0f45e3635c0c13f6" />
+                <input type="hidden" name="to_email" value="samuelswmak@gmail.com" />
+                <input type="hidden" name="to_name" value="Samuel Mak" />
+                <!-- <input type="hidden" name="redirect_url" value="http://urlforaftersubmit.com" /> -->
+
                 <ul class="row">
                   <li class="col-sm-4">
                     <label>*<span> NAME</span>
-                      <input type="text" class="form-control" name="name" id="name" placeholder="">
+                      <!-- <input type="text" class="form-control" name="name" id="name" placeholder=""> -->
+                      <input id="name" class="form-control" type="text" name="from_name" value="" />
                     </label>
                   </li>
                   <li class="col-sm-4">
                     <label>* <span>EMAIL</span>
-                      <input type="text" class="form-control" name="email" id="email" placeholder="">
+                      <!-- <input type="text" class="form-control" name="email" id="email" placeholder=""> -->
+                      <input id="email" class="form-control" type="text" name="from_email" value="" />
                     </label>
                   </li>
                   <li class="col-sm-4">
                     <label>* <span>SUBJECT</span>
-                      <input type="text" class="form-control" name="company" id="company" placeholder="">
+                      <!-- <input type="text" class="form-control" name="company" id="company" placeholder=""> -->
+                      <input id="company" class="form-control" type="text" name="subject" value="" />
                     </label>
                   </li>
                   <li class="col-sm-12 margin-top-20">
                     <label> <span>CONTENT</span>
-                      <textarea class="form-control" name="message" id="message" rows="5" placeholder=""></textarea>
+                      <!-- <textarea class="form-control" name="message" id="message" rows="5" placeholder=""></textarea> -->
+                      <textarea id="message" class="form-control" rows="5" name="body"></textarea>
                     </label>
                   </li>
                   <li class="col-sm-12">
-                    <button type="submit" value="submit" id="btn_submit" onClick="proceed();">SEND ME</button>
+                    <!-- <button type="submit" value="submit" id="btn_submit" onClick="proceed();">SEND ME</button> -->
+                    <button type="submit" id="btn_submit">Send Me</button>
                   </li>
                 </ul>
               </form>
@@ -376,11 +402,11 @@
                 <h3 class="block-title"><span>Presence</span></h3>
                 <div class="block-content">
                   <ul>
-                    <li><a href="https://github.com/iamsammak">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/samuelmak">LinkedIn</a></li>
-                    <li><a href="https://www.facebook.com/samuelsmak">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/createsamspace/">Instagram</a></li>
-                    <li><a href="https://www.pinterest.com/iamsammak/">Pinterest</a></li>
+                    <li><a href="https://github.com/iamsammak" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/samuelmak" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/samuelsmak" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/createsamspace/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.pinterest.com/iamsammak/" target="_blank">Pinterest</a></li>
                   </ul>
                 </div>
               </div>
@@ -419,11 +445,11 @@
             </div>
             <div class="col-md-6 social-links">
               <ul class="right">
-                <li><a href="https://github.com/iamsammak"><i class="fa fa-github fa-lg"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/samuelmak"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                <li><a href="https://www.facebook.com/samuelsmak"><i class="fa fa-facebook fa-lg"></i></a></li>
-                <li><a href="https://www.instagram.com/createsamspace/"><i class="fa fa-instagram fa-lg"></i></a></li>
-                <li><a href="https://www.pinterest.com/iamsammak/"><i class="fa fa-pinterest fa-lg"></i></a></li>
+                <li><a href="https://github.com/iamsammak" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/samuelmak" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li><a href="https://www.facebook.com/samuelsmak" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                <li><a href="https://www.instagram.com/createsamspace/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                <li><a href="https://www.pinterest.com/iamsammak/" target="_blank"><i class="fa fa-pinterest fa-lg"></i></a></li>
               </ul>
             </div>
           </div>

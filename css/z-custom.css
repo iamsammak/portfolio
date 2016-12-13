@@ -1,13 +1,36 @@
 /*------------------------------------------------------------------
     ADD YOUR OWN THEME STYLING HERE
 -------------------------------------------------------------------*/
+.sub-banner h2 {
+  font-size: 58px;
+}
 
 .sam-color {
   color: #f6b138;
 }
 
+.breadcrumb {
+  margin-top: 10px;
+}
+
 .breadcrumb>.active, .breadcrumb a {
+  /*color: #f6b138;*/
+}
+
+.icon-box .ib-icon:hover {
+  border-color: #f6b138;
+}
+
+.icon-box .ib-icon i:hover {
   color: #f6b138;
+}
+
+#contact_form li .form-control {
+  border: 1px solid #ffffff;
+}
+
+#contact_form li .form-control:focus {
+  border: 1px solid #f6b138 !important;
 }
 
 .spinner {
