@@ -40,6 +40,11 @@
   border: 1px solid #f6b138 !important;
 }
 
+/*had to over right the font-awesome.min.css:1 for some reason*/
+.fa-github:before {
+  font-size: 16px;
+}
+
 /* spacing for presence links */
 #footer li {
   line-height: 30px;
@@ -83,8 +88,3 @@
     transform: rotate(45deg) scale(1.2)
   100%
     transform: rotate(360deg) scale(1);
-
-/*had to over right the font-awesome.min.css:1 for some reason*/
-.fa-github:before {
-  font-size: 16px;
-}
