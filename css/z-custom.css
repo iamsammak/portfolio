@@ -1,38 +1,53 @@
 /*------------------------------------------------------------------
     ADD YOUR OWN THEME STYLING HERE
 -------------------------------------------------------------------*/
+
+/* header text - name */
 .sub-banner h2 {
   font-size: 58px;
 }
 
+/* apply to class to add color */
 .sam-color {
   color: #f6b138;
 }
 
+/* support head text spacing */
 .breadcrumb {
   margin-top: 10px;
 }
 
-.breadcrumb>.active, .breadcrumb a {
-  /*color: #f6b138;*/
-}
+/* support head text */
+/*.breadcrumb>.active, .breadcrumb a {
+  color: #f6b138;
+}*/
 
+/* small page break icons */
 .icon-box .ib-icon:hover {
   border-color: #f6b138;
 }
-
 .icon-box .ib-icon i:hover {
   color: #f6b138;
 }
 
+/* wrap the content form input boxes */
 #contact_form li .form-control {
   border: 1px solid #ffffff;
 }
 
+/* overriding the important inside the default style.css */
 #contact_form li .form-control:focus {
   border: 1px solid #f6b138 !important;
 }
 
+/* spacing for presence links */
+#footer li {
+  line-height: 30px;
+}
+
+
+
+/* revolving spinner for page loading */
 .spinner {
   width: 100px;
   height: 100px;
