@@ -30,12 +30,7 @@
 
 <!-- JavaScripts -->
 <script src="js/vendors/modernizr.js"></script>
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <body>
 <!-- LOADER ===========================================-->
@@ -82,7 +77,6 @@
 
   <!-- Content -->
   <div id="content">
-    <!-- <section class="sub-banner animated fadeInUp" style="background:url(images/kammas/bg-fujicon-overlay15.jpg) fixed no-repeat"> -->
     <section class="sub-banner animated fadeInUp" style="background:url(http://res.cloudinary.com/dfazwubvc/image/upload/v1481693283/portfolio/bg-fujicon-overlay15.jpg) fixed no-repeat">
       <div class="container">
         <div class="position-center-center">
@@ -246,10 +240,9 @@
       <div class="container">
         <div class="items item-space row col-3 animate fadeInUp" data-wow-delay="0.4s">
 
-          <!-- Pin That! ITEM -->
+          <!-- Pin That! -->
           <article class="portfolio-item pf-javascript pf-ruby-on-rails">
             <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/kammas/pinthat_compress30.gif"> </a>
-            <!-- <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="http://res.cloudinary.com/dfazwubvc/image/upload/v1483468741/portfolio/pinthat_7sec.gif"> </a> -->
               <div class="portfolio-overlay style-4">
                 <div class="detail-info">
                   <div class="position-center-center">
@@ -261,10 +254,9 @@
             </div>
           </article>
 
-          <!-- Soundspace ITEM -->
+          <!-- Soundspace -->
           <article class="portfolio-item pf-javascript">
             <div class="portfolio-image"> <a href="https://iamsam#."> <img class="img-responsive" alt="Open Imagination" src="images/kammas/soundspace_compress30.gif"> </a>
-            <!-- <div class="portfolio-image"> <a href="https://iamsam#."> <img class="img-responsive" alt="Open Imagination" src="http://res.cloudinary.com/dfazwubvc/image/upload/v1483468766/portfolio/gameplay_430px.gif"> </a> -->
               <div class="portfolio-overlay style-4">
                 <div class="detail-info">
                   <div class="position-center-center">
@@ -276,9 +268,8 @@
             </div>
           </article>
 
-          <!-- Baburu ITEM -->
+          <!-- Baburu -->
           <article class="portfolio-item pf-javascript">
-            <!-- <div class="portfolio-image"> <a href="https://ia#."> <img class="img-responsive" alt="Open Imagination" src="images/kammas/baburu_430px.gif"> </a> -->
             <div class="portfolio-image"> <a href="https://ia#."> <img class="img-responsive" alt="Open Imagination" src="http://res.cloudinary.com/dfazwubvc/image/upload/v1483468771/portfolio/baburu_430px.gif"> </a>
               <div class="portfolio-overlay style-4">
                 <div class="detail-info">
@@ -305,23 +296,8 @@
         <h3>Get In Touch</h3>
         <div class="divider divider-short divider-center"><i class="i-div fa fa-envelope fa-2x sam-color"></i></div>
         <span>Everyone has a story, I would love to hear yours!<br/>Also is a hotdog a sandwich? Thoughts? Let me know</span></div>
-        <!-- Everyone has a story and I love meeting new people, so let's grab coffee or play volleyball, either or I'm game. -->
       </div>
     </div>
-
-<!-- Herc Email Form -->
-
-    <!-- <form action="https://api.hercdev.io/email" method="post">
-      <input type="hidden" name="api_key" value="70215307be151af26399cce72d27d5f028a9f5c155ee0f45e3635c0c13f6" />
-      <input type="hidden" name="to_email" value="samuelswmak@gmail.com" />
-      <input type="hidden" name="to_name" value="Samuel Mak" />
-      <input type="hidden" name="redirect_url" value="http://urlforaftersubmit.com" /> -->
-      <!-- <input type="text" name="from_email" value="" />
-      <input type="text" name="from_name" value="" />
-      <input type="text" name="subject" value="" />
-      <textarea name="body"></textarea>
-      <button type="submit">Send Me</button>
-    </form> -->
 
 
     <!-- Contact  -->
@@ -337,17 +313,14 @@
               <div id="contact_message" class="success-msg animated fadeInUp"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>
 
               <!-- FORM -->
-              <!-- <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false"> -->
               <form role="form" id="contact_form" class="contact_form" action="https://api.hercdev.io/email" method="post">
                 <input type="hidden" name="api_key" value="70215307be151af26399cce72d27d5f028a9f5c155ee0f45e3635c0c13f6" />
                 <input type="hidden" name="to_email" value="samuelswmak@gmail.com" />
                 <input type="hidden" name="to_name" value="Samuel Mak" />
-                <!-- <input type="hidden" name="redirect_url" value="http://urlforaftersubmit.com" /> -->
 
                 <ul class="row">
                   <li class="col-sm-4">
                     <label>*<span> NAME</span>
-                      <!-- <input type="text" class="form-control" name="name" id="name" placeholder=""> -->
                       <input id="name" class="form-control" type="text" name="from_name" value="" />
                     </label>
                   </li>
@@ -428,7 +401,7 @@
             </div>
             <!-- End Footer Links Block -->
 
-            <!-- Instagram Widget Block -->
+            <!-- Instagram Pictures-->
             <div class="col-md-3">
               <div class="block block-instagram-widget">
                 <h3 class="block-title"><span>My life in a 3x3 grid</span></h3>
@@ -445,7 +418,6 @@
                 </ul>
               </div>
             </div>
-            <!-- End Instagram Widget Block -->
 
           </div>
         </div>
@@ -482,39 +454,6 @@
   <!-- GO TO TOP -->
     <a href="#" class="cd-top cd-is-visible"><i class="fa fa-angle-up"></i></a>
   <!-- GO TO TOP End -->
-
-<!-- End Page Wrapper -->
-<!--Style Switcher===========================================-->
-<!-- <div class="color-switcher" id="choose_color"> <a href="#." class="picker_close"><i class="ion-gear-a" ></i></a>
-  <div class="theme-colours">
-    <p class="font-crimson font-italic">Choose Colour style</p>
-    <ul>
-      <li><a href="#." class="blue" id="blue"></a></li>
-      <li><a href="#." class="green" id="green"></a></li>
-      <li><a href="#." class="red" id="red"></a></li>
-      <li><a href="#." class="yellow" id="yellow"></a></li>
-      <li><a href="#." class="brown" id="brown"></a></li>
-      <li><a href="#." class="cyan" id="cyan"></a></li>
-      <li><a href="#." class="purple" id="purple"></a></li>
-      <li><a href="#." class="sky-blue" id="sky-blue"></a></li>
-      <li><a href="#." class="gray" id="gray"></a></li>
-      <li><a href="#." class="peter-river" id="peter-river"></a></li>
-      <li><a href="#." class="nephritis" id="nephritis"></a></li>
-      <li><a href="#." class="amethyst" id="amethyst"></a></li>
-      <li><a href="#." class="wet-asphalt" id="wet-asphalt"></a></li>
-      <li><a href="#." class="night-shade" id="night-shade"></a></li>
-      <li><a href="#." class="sun-flowers" id="sun-flowers"></a></li>
-      <li><a href="#." class="orange" id="orange"></a></li>
-      <li><a href="#." class="carrot" id="carrot"></a></li>
-      <li><a href="#." class="alizarin" id="alizarin"></a></li>
-      <li><a href="#." class="sliver" id="sliver"></a></li>
-      <li><a href="#." class="green-sea" id="green-sea"></a></li>
-    </ul>
-    <div class="layouts no-padding">
-      <p class="font-crimson font-italic margin-top-20">Layout Style</p>
-      <a href="#." id="boxed">BOX LAYOUT</a> <a href="#." id="wide">WIDE LAYOUT</a> </div>
-  </div>
-</div> -->
 
 <!-- JavaScripts -->
 <script src="js/vendors/jquery/jquery.min.js"></script>
